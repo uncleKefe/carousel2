@@ -1,6 +1,7 @@
 const carousel = document.querySelector(".carousel");
 const nextButton = document.querySelector(".right-btn");
 const previousButton = document.querySelector(".left-btn")
+const dot = document.querySelectorAll(".dot");
 
 const slides = [...carousel.children];
 
